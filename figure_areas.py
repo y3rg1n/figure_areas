@@ -1,3 +1,5 @@
+import math
+
 def rectArea():
       a = float(input("Width:"))
       b = float(input("Length:"))
@@ -21,6 +23,12 @@ def trapArea():
       h = float(input("Height:"))
       print("Area of your trapeze is: ", ((a + b)/2)*h, "\n")
       return
+
+def circArea():
+      r = float(input("Radius:"))
+      print("Area of your circle is: ", round(math.pi, 2)*(r*r), "\n")
+      return
+
 
 
 while True:
