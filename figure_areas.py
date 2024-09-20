@@ -49,5 +49,7 @@ while True:
             triArea()
       elif (choice =="4"):
             trapArea()
+      elif (choice =="5"):
+            circArea()
       else:
             exit()
